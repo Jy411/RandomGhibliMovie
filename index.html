@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-200">
+
+<section class="container mx-auto py-5">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/ca/Studio_Ghibli_logo.svg" class="mx-auto">
+</section>
+
+<section class="container mx-auto py-10" id="mainBox">
+
+    <section class="container mx-auto text-center">
+        <h1 class="font-black text-5xl">What movie should I watch?</h1>
+    </section>
+
+    <section class="container mx-auto text-center py-4">
+        <button class="rounded p-5 bg-orange-500 text-white" onclick="spinIt()">Spin the wheel!</button>
+    </section>
+
+    <section class="container mx-auto text-center py-4">
+        <section class="container mx-auto rounded max-w-md bg-green-200">
+            <h1 class="font-black text-2xl py-3" id="movieTitle"></h1>
+            <h1 class="font-black text-xl py-1" id="movieScore"></h1>
+            <p class="text-left p-3" id="movieDescription"></p>
+
+        </section>
+    </section>
+
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
